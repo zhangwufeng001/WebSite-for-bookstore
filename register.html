@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+<link type="text/css" rel="stylesheet" href="style/reset.css">
+<link type="text/css" rel="stylesheet" href="style/main.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="js/ie6Fixpng.js"></script>
+<![endif]-->
+</head>
+<style>
+	a{color: #1A66B3;}
+	.btn_1 {
+ display: inline-block;
+ line-height: 16px;
+ padding: 15px 0;
+ margin-bottom: 30px;
+ border-radius: 3px;
+ font-family: Microsoft YaHei,SimHei;
+ background: #03a9f4;
+ border: 1px solid #0398db;
+ color: #fff;
+ font-size: 20px;
+ text-align: center;
+ cursor: pointer;
+}
+.w430 {
+ width: 340px;
+}
+.pf_ipt_user, .pf_ipt_pass, .pf_ipt_verify{
+ height: 20px;
+ line-height: 20px;
+ padding: 13px 20px;
+ margin-bottom: 30px;
+ width: 300px;
+ border: 1px solid #d9d9d9;
+ border-radius: 3px;
+ color: #888;
+ font-size: 16px;
+ font-family: Microsoft YaHei,SimHei;
+}
+</style>
+
+<body>
+<div class="headerBar">
+	<div class="logoBar red_logo">
+		<div class="comWidth">
+			<h3 class="welcome_title">欢迎注册</h3>
+		</div>
+	</div>
+</div>
+<div class="regBox">
+	<div class="login_cont">
+	<form action="register.php" method="post">
+		<ul class="login">
+			<p><span class="reg_item"><i>*</i>邮箱/手机号：</span><input type="text" class="pf_ipt_user" placeholder="请输入账号" autocomplete="off" name="username" id="_username" tabindex="1"/></p>
+ 			<p><span class="reg_item"><i>*</i>密码：</span><input type="password" class="pf_ipt_pass pass_bg_1" placeholder="请输入密码" autocomplete="off" name="password" id="_password" tabindex="2"/></p>
+ 			<p><span class="reg_item"><i>*</i>确认密码：</span><input type="password" class="pf_ipt_pass pass_bg_1" placeholder="请再输入一次" autocomplete="off" name="pwd_again" id="_password1" tabindex="3"/></p>
+ 			<p><span class="reg_item">&nbsp;</span><button class="btn_1 w430">注册</button></p>
+			<li class="autoLogin"><span class="reg_item">&nbsp;</span><input type="checkbox" id="t1" class="checked"><label for="t1">我已阅读并同意<a href="#">《eBuy交易条款》</a></label></li>
+		</ul>
+	</form>
+	</div>
+</div>
+
+
+<div class="hr_25"></div>
+<div class="footer">
+	<p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-675-1234</p>
+	<p>Copyright &copy; 2006 - 2014 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+	<p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
+</div>
+</body>
+</html>

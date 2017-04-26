@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link type="text/css" rel="stylesheet" href="style/reset.css">
+<link type="text/css" rel="stylesheet" href="style/main.css">
+<script type="text/javascript" src="js/setHomeSetFav.js" charset="gb2312"></script>
+<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="js/ie6Fixpng.js"></script>
+<![endif]-->
+</head>
+<style>
+	.shopText a{color: #fff;}
+</style>
+
+<body>
+<div class="headerBar">
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection" onclick="AddFavorite(window.location,document.title)">收藏eBuy</a>
+			</div>
+			<div class="rightArea">
+				欢迎来到eBuy网！<a href="登录.html">[登录]</a><a href="注册.html">[免费注册]</a>
+			</div>
+		</div>
+	</div>
+	<div class="logoBar">
+		<div class="comWidth">
+			<div class="logo fl">
+				<a href="#"><img src="images/logo.gif" alt=""></a>
+			</div>
+			<div class="search_box fl">
+				<input type="text" class="search_text fl">
+				<input type="button" value="搜 索" class="search_btn fr">
+			</div>
+			<div class="shopCar fr">
+				<span class="shopText fl"><a href="order.html" target="_blank">购物车</a></span>
+				<span class="shopNum fl">0</span>
+			</div>
+		</div>
+	</div>
+	<div class="navBox">
+		<div class="comWidth clearfix">
+			<div class="shopClass fl">
+				<h3>全部商品分类<i class="shopClass_icon"></i></h3>
+
+			</div>
+			<ul class="nav fl">
+				<li><a href="default.html">图书</a></li>
+				<li><a href="hot1.html" class="active">青春文学</a></li>
+				<li><a href="hot2.html">文学</a></li>
+				<li><a href="hot3.html">孕产/胎教</a></li>
+				<li><a href="hot4.html">动漫/幽默</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="hr_15"></div>
+<div class="comWidth clearfix products">
+	<div class="leftArea">
+		<div class="leftNav">
+			<h3 class="nav_title">图书</h3>
+			<div class="nav_cont">
+				<h3>青春文学</h3>
+				<ul class="navCont_list clearfix">
+					<li><a href="hot1.html">爱情/情感</a></li>
+					<li><a href="hot1.html">大陆原创</a></li>
+					<li><a href="hot1.html">古代言情</a></li>
+					<li><a href="hot1.html">惊悚爆笑</a></li>
+					<li><a href="hot1.html">偶像悬疑</a></li>
+					<li><a href="hot1.html">成长穿越</a></li>
+					<li><a href="hot1.html">魔幻/科幻</a></li>
+				</ul>
+			</div>
+			<div class="nav_cont">
+				<h3>文学</h3>
+				<ul class="navCont_list clearfix">
+					<li><a href="hot2.html">当代诗歌</a></li>
+					<li><a href="hot2.html">文学评论</a></li>
+					<li><a href="hot2.html">英文原版</a></li>
+					<li><a href="hot2.html">民间文学</a></li>
+					<li><a href="hot2.html">外国随笔</a></li>
+					<li><a href="hot2.html">中国古诗词</a></li>
+					<li><a href="hot2.html">纪实文学</a></li>
+				</ul>
+			</div>
+			<div class="nav_cont">
+				<h3>孕产/胎教</h3>
+				<ul class="navCont_list clearfix">
+					<li><a href="hot3.html">孕期</a></li>
+					<li><a href="hot3.html">胎教</a></li>
+					<li><a href="hot3.html">孕产妇健康</a></li>
+					<li><a href="hot3.html">孕前准备</a></li>
+					<li><a href="hot3.html">饮食指导</a></li>
+					<li><a href="hot3.html">产后管理</a></li>
+					<li><a href="hot3.html">孕产胎教</a></li>
+				</ul>
+			</div>
+			<div class="nav_cont">
+				<h3>动漫/幽默</h3>
+				<ul class="navCont_list clearfix">
+					<li><a href="hot4.html">大陆漫画</a></li>
+					<li><a href="hot4.html">日韩漫画</a></li>
+					<li><a href="hot4.html">动漫学堂</a></li>
+					<li><a href="hot4.html">欧美漫画</a></li>
+					<li><a href="hot4.html">轻小说世界</a></li>
+					<li><a href="hot4.html">经典漫画集</a></li>
+					<li><a href="hot4.html">港台漫画</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="rightArea">
+		<div class="banner_bar banner_big">
+		<ul class="imgBox">
+			<li><a href="#"><img src="images/slide1.jpg" alt="banner"></a></li>
+		</ul>
+	</div>
+		<div class="hr_7"></div>
+		<div class="products_title">
+			<h3>畅销书籍</h3>
+		</div>
+		<div class="products_list clearfix">
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=1"><img src="images/book1.jpg" alt=""></a>
+					</div>
+					<p><a href="#">三生三世十里桃花</a></p>
+					<p class="money">￥30</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(778条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=2"><img src="images/book2.jpg" alt=""></a>
+					</div>
+					<p><a href="#">你的名字（新海诚）</a></p>
+					<p class="money">￥28</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(546条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=3"><img src="images/book3.jpg" alt=""></a>
+					</div>
+					<p><a href="#">最好的我们</a></p>
+					<p class="money">￥40</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(42条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=4"><img src="images/book4.jpg" alt=""></a>
+					</div>
+					<p><a href="#">你是最好的自己</a></p>
+					<p class="money">￥20</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(178条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=5"><img src="images/book5.jpg" alt=""></a>
+					</div>
+					<p><a href="#">岁月忽已暮</a></p>
+					<p class="money">￥20</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(48条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=11"><img src="images/book11.jpg" alt=""></a>
+					</div>
+					<p><a href="#">完美胎教枕边书</a></p>
+					<p class="money">￥70</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(58条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=12"><img src="images/book12.jpg" alt=""></a>
+					</div>
+					<p><a href="#">斗罗大陆第二部</a></p>
+					<p class="money">￥10</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(637条)</a></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_cont">
+					<div class="img_item">
+						<a href="book2.php?param=13"><img src="images/book13.jpg" alt=""></a>
+					</div>
+					<p><a href="#">爆笑校园1—10套装</a></p>
+					<p class="money">￥88</p>
+					<p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span></span><a href="#"&nbsp;>(873条)</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hr_25"></div>
+<div class="footer">
+	<p><a href="#">eBuy简介</a><i>|</i><a href="#">eBuy公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-675-1234</p>
+	<p>Copyright &copy; 2007 - 2017 eBuy版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+	<p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
+</div>
+</body>
+</html>
